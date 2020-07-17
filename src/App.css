@@ -1,0 +1,141 @@
+.App-logo {
+  animation: spin infinite 20s linear;
+  height: 100px;
+  display: flex;
+
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  display: flex;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  width: 70rem;
+  height: 60rem;
+  margin-top: 30px;
+  display: flex;
+  background-color: rgba(18, 23, 68, 0.5);
+  border-radius: 10px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  color: #ecf0f1;
+  
+}
+
+
+.quiz{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.h1{
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: #0c1b49;
+  text-align: center;
+  
+
+}
+
+.parag{
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.questionTitle{
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+  text-transform: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.answersList {
+  margin: 0 auto;
+  list-style-type: none;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: column;
+}
+
+.answer {
+  text-align: center;
+  font-size: 4rem;
+  margin: 0.8rem ;
+}
+
+.answer:hover {
+  background-color: rgb(216, 155, 24);
+  color: #34495e;
+  cursor: pointer;
+}
+
+
+.answer:active {
+  background-color: rgb(0, 72, 226);
+}
+
+.show{
+  display: block;
+}
+
+.hide{
+  display: none;
+}
+
+.result {
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #eee5e7;
+  text-align: center;
+}
+
+.regresar{
+  font-size: 30px;
+  border: none;
+  color: #0a043a;
+  padding: 15px 32px;
+  background-color: rgb(216, 155, 24);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 110px;
+  text-decoration: none;
+  align-items: center;
+}
+
+.rating {
+  font-size: 30px;
+  color: #fff;
+  padding: 5px 10px;
+  background: #333;
+  border-radius: none;
+  
+}
+
+.secondary-container{
+  display: flex;
+  justify-content: center;
+}
