@@ -59,7 +59,7 @@ const quizQuestions = [
             },
             {
                 type: "Misterio",
-                content: "Chuky"
+                content: "Chucky"
             },
             {
                 type: "Ficcion",
